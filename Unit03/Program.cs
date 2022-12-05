@@ -6,7 +6,8 @@ namespace Unit03
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Director director = new Director();
+            director.Start();
         }
     }
 }
